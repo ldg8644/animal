@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+header{
+    width: 100%;
+
+}
+
+main{margin-bottom: 10px;}
+
+
+section{
+    width: 1020px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_con{
+    width: 340px;
+    height: 507px;
+   
+}
+.cen_con{
+    width: 380px;
+    height: 507px;
+
+}
+.right_con{
+    width: 260px;
+    height: 507px;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 107px;
+ background-color: #e7e7e7;
+}

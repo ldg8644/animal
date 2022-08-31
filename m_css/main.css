@@ -1,0 +1,112 @@
+@charset "utf-8";
+main .slide{
+    height: 60vh/*vertical height*/;
+    overflow: hidden;
+    position: relative;
+}
+main .slide>h2{display: none;}
+
+.swiper-slide{position: relative;}
+.swiper-slide>h2{
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .6);
+    font-size: 20px;
+    font-weight: 500;
+    width: 230px;
+    text-align: center;
+    padding: 6px 10px;
+    line-height: 30px;
+    left:50%;top: 26%;
+    transform: translate(-50%,-50%);
+    border-radius: 40px;
+}
+.con nav{
+    width: 90%;
+    margin: 20px auto;
+}
+.con h2{display: none;}
+.con nav>ul{text-align: center;}
+.con nav>ul>li{
+    border: 1px solid #ccc;
+    width: 28%;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.icon{
+    display:inline-block;
+}
+.con nav>ul>li .mnu{display: block;
+padding: 8px 0px;
+font-size: 1rem;/*1rem=16px*/
+font-weight: 500;
+}
+
+.con nav>ul>li .icon{
+    background-image:url(../images/nav_icon.png) ;
+    width: 83px;height: 66px;
+    background-size: 360px;
+}
+.con nav>ul>li:nth-child(2) .icon{background-position: -82px 10px;}
+.con nav>ul>li:nth-child(3) .icon{background-position: -150px 10px;
+background-size: 340px;}
+.con nav>ul>li:nth-child(4) .icon{background-position: -210px 10px;
+background-size: 300px;}
+.con nav>ul>li:nth-child(5) .icon{background-position: 7px -65px;}
+.con nav>ul>li:last-child .icon{background-position: -70px -65px;}
+
+.con nav .map_btn{width: 88%;
+ height: 40px;
+ display: block;position: relative;
+margin: 0px auto;
+
+
+border: 1px solid #ccc;}
+
+.map_btn .icon{position: absolute;display: inline;
+display: flex;
+    width: 30px;height:33px;
+    background-image: url(../images/nav_icon.png);
+    background-position: -138px -55px;
+    background-size: 310px ;
+ }
+.map_btn .mnu{position: absolute;left: 40px;
+  display: flex;
+
+margin-top: 10px;
+    font-size: 1rem;/*1rem=16px*/
+    font-weight: 500;
+    }
+
+.div01{width: 120px; position:relative;
+margin: 0px auto;}
+
+ .call{background-image: url(../images/info_back.png);
+position: relative;
+margin: 20px auto;background-size: 100%;
+height: 50px; width: 80%;
+
+}
+.text01, .art01{width:280px;position:relative;margin: 0px auto;}
+
+
+  
+    .call .art01>p{display:block ;color: #ffffff;position: absolute;
+        font-size: 6px;
+   }
+    .call .art01 .tel01, .call .art01 .tel02{color: #ffffff;
+
+  }
+  .art01{position: absolute;;top:9px;
+line-height: 16px;}
+
+
+.fa-phone{font-size: 16px;
+color: #ffffff;padding:16px }
+
+.box01{display: inline-block;
+position: absolute;
+width: 200px;
+margin: 0px auto;
+text-align: center;}
